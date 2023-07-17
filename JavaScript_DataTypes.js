@@ -23,26 +23,26 @@ var myNum;
 myNum = myVariable;
 //  myNum is have value of myVarible i.e  5;
 
-//Declaration and initialisation in same line it's commmon and more redable
+// Declaration and initialisation in same line it's commmon and more readable
 var myVar = 0;
 
 
-//  Now it's tome to String
+//  Now it's time to String
 var myName = "lokinagure";
-//whatever written in " " is string literal
+// whatever written in " " is string literal
 
 //  Undefined
 //  Whenver we declared variable and not initialised to any value it's a type of Undefined
-//  And If I perform Mathamatical operation with undefined answer we get is   : NaN
-//  And If I perform String operation with undefined answer we get is   : undefined
+//  And If I perform Mathamatical operation with undefined answer we get    : NaN
+//  And If I perform String operation with undefined answer we get    : undefined
 var unValue;
-//console.log(unValue)
+console.log(unValue)
 
 console.log()
-//console.log(unValue + 50);
+console.log(unValue + 50);
 
 console.log()
-//console.log("Hello" + unValue );
+console.log("Hello" + unValue );
 
 //  In Javascript variable are case sensitive
 //  both are completely different
@@ -53,24 +53,25 @@ var ThisVariable = "Thirty";
 var camper = "James";
 var camper = "Boss";
 //  What the hellll, The same varible I'm declaring more then once
-// Is it feature or Bug bro? 
-// Emotional Damage;
+//  Is it feature or Bug bro? 
+//  Emotional Damage;
 
-//  For some big projeccts maybe it becomes problem so let's intoduce let keywors
+//  For some big projeccts maybe it becomes problem so let's introduce let keywors
 let champion = "Bravo";
-//let champion = "Me";
+//  let champion = "Me";
 //  getting error Can't declare block scoped varible 
-//  So problem solved with ES6 feature let
-//  Failure management
+//  So problem solved with ES6 feature - let
+//  Failure management.
 
 
 var thisIsString = "Boss";
 var thisIsString = 8055;
 //  It's get confusion when you made both thses changes at different places
-//  So here lwt comes to help, We can;t declare a same scoped variable more then once
+//  So here - let comes to help, We can't declare a same scoped variable more then once
+
 
 //  Read Only Varible
-//  Declare and Initialise onece, use anytime
+//  Declare and Initialise once, use anytime
 
 //The Const keyword
 const MY_NAME = "lokinagure";
@@ -84,11 +85,11 @@ const MY_NAME = "lokinagure";
 //  Adding two numbers
 const myValue = 5 + 50;
 //  myValue is 55.
-//console.log(myValue);
+console.log(myValue);
 
 //Subtraction
  const remainig = 50 - 30;
- //console.log(remainig);
+ console.log(remainig);
 
 
 //  Multiply
@@ -101,7 +102,7 @@ console.log(division);
 
 // Increment and Decremet
 
-//  Incremt 
+//  Increment 
 //  value++;
 // i.e equals to value
 //  value = value + 1;
@@ -113,22 +114,23 @@ console.log(onePointTwo + twoPointThree) ;
 //  1.2 + 2.3  => 3.5
 
 
-const reminder = 9.5 % 4.0;
+const reminder = 9 % 4;
 console.log(reminder);
 //  4 diving 9 gives reminder one 1;
 
 
 //  Is number Odd or Even
 //  we can easily get that by using remainder operator
-//  when divide by zero : If remainder is 0 -> even else Odd
+//  when divide by two : If remainder is 0 -> even - else Odd
 
 
 
-//   Augmented Addition
+//  Augmented Addition
 let oneVar = 5;
 oneVar += 10;
 console.log(oneVar);
 //  oneVar is 15 now
+//  That will work as oneVar = pneVar + 10;
 
 // Augmented Subtraction
 oneVar -= 3;
@@ -137,3 +139,4 @@ console.log(oneVar);
 
 //Same goes with *= multiplication and also /= division also
 
+//By Dear, Dive in other topics.
