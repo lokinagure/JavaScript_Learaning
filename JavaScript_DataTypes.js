@@ -19,7 +19,7 @@ var myVariable;
 myVariable = 5;
 
 
-var nyNum;
+var myNum;
 myNum = myVariable;
 //  myNum is have value of myVarible i.e  5;
 
